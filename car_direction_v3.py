@@ -4,7 +4,6 @@ import numpy as np
 from ultralytics import YOLO
 from collections import deque
 
-# Create the frames directory if it doesn't exist
 frames_dir = 'frames'
 os.makedirs(frames_dir, exist_ok=True)
 
