@@ -4,11 +4,9 @@ import numpy as np
 from ultralytics import YOLO
 from collections import deque
 
-# Create directories for saving frames
 frames_dir = 'frames'
 os.makedirs(frames_dir, exist_ok=True)
 
-# Load the YOLOv8 model
 model = YOLO("yolov8s.pt")
 
 # Load the video
