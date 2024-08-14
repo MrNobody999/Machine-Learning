@@ -6,7 +6,6 @@ from collections import deque, Counter
 import sys
 import contextlib
 
-# Create the frames directory if it doesn't exist
 frames_dir = 'frames'
 os.makedirs(frames_dir, exist_ok=True)
 
