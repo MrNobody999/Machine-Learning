@@ -1,6 +1,4 @@
 import cv2
-
-
 import os
 import numpy as np
 from ultralytics import YOLO
